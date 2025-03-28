@@ -1,0 +1,2 @@
+### HashSet doesn’t follow any order where as LinkedHashSet maintains insertion order.
+### HashSet uses HashMap object internally to store it’s elements where as LinkedHashSet uses LinkedHashMap object internally to store and process it’s elements.
