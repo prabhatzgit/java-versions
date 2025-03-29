@@ -28,6 +28,12 @@ public class SwitchCaseStmts {
 
         public static String switchCaseUsingJdk17(int number) {
             return switch (number) {
+                // enhancement scenario
+                // arrow operator is used to define the block of statements
+                // for a particular case block
+                // Even though this switch case don't have break keyword
+                // the particular case block get executed.
+                // that means break keyword is not required
                 case 1 -> "one";
                 case 2 -> "two";
                 case 3 -> "three";
